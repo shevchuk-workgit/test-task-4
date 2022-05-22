@@ -1,5 +1,5 @@
-# test-task-4
-
+# Тестовое задание
+## Описание задачи.
 ## Стек:
 языки - JavaScript/TypeScript.
 Фреймворк - React/Vue/Angular, state-management на ваш выбор
