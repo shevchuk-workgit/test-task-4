@@ -1,5 +1,10 @@
 # Тестовое задание
-## Описание задачи.
+
+## Ссылки на выполненное задание:
+1) https://shevchuk-workgit.github.io/test-task-4/
+2) https://github.com/shevchuk-workgit/test-task-4
+
+## Условие задачи:
 ## Стек:
 языки - JavaScript/TypeScript.
 Фреймворк - React/Vue/Angular, state-management на ваш выбор
