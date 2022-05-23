@@ -4,7 +4,6 @@ import UserPage from "@/components/pages/UserPage";
 import UserPostList from "@/components/pages/UserPostList";
 import UserPost from "@/components/pages/UserPost";
 
-
 const routes = [
   {
     path: "/",
@@ -25,6 +24,12 @@ const routes = [
     path: "/user-:userId/post-list/:postId",
     name: "userPost",
     component: UserPost,
+  },
+  {
+    path: "/:pathMatch(.*)",
+    redirect: {
+      path: "/",
+    },
   },
 ];
 
