@@ -12,7 +12,7 @@
   <div v-for="comment in comments" :key="comment.id">
     <user-post-comment :comment="comment"></user-post-comment>
   </div>
-  <ui-button class="user-post_button" @click="modalComment=true">Добавить коментарий</ui-button>
+  <ui-button class="user-post_button" @click="modalComment=true">Добавить комментарий</ui-button>
   <user-post-modal-add-comment v-if="modalComment" v-model:modalComment="modalComment" v-model:comments="comments"></user-post-modal-add-comment>
 </template>
 
@@ -50,7 +50,7 @@ export default {
         `https://jsonplaceholder.typicode.com/posts/${this.$route.params.postId}/comments`
       )
         .then((res) => res.json())
-        .catch((error) => console.log("USER POST COMENTS API ERROR: ", error));
+        .catch((error) => console.log("USER POST COMMENTS API ERROR: ", error));
 
       // console.log(apiComments);
       this.comments = apiComments;
